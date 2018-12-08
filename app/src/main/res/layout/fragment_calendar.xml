@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff9ae"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CalendarUser">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <EditText
+                android:id="@+id/txt_what"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="What?"
+                android:inputType="textMultiLine" />
+            <EditText
+                android:id="@+id/txt_where"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Where?"
+                android:inputType="textMultiLine" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose Time:"
+                    />
+                <TextView
+                    android:id="@+id/txt_AM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:text="00:00 AM"
+                    android:onClick="pickPeAmHr"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/txt_PM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="00:00 PM"
+                    android:onClick="pickPePmHr"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/myDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="Date Selected"
+                android:textColor="#000"
+                android:textSize="23sp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <CalendarView
+                    android:id="@+id/calendarView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </CalendarView>
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_saveEvent"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save Event"
+                android:gravity="center"
+                android:background="#4da4d3"
+                android:textColor="#fff"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

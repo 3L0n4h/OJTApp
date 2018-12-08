@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgbgbg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="hci.com.tentativecapstoneui.About"
+    tools:showIn="@layout/app_bar_aboutt">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_y="20dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1280dp">
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="319dp"
+                android:layout_height="428dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/cardView2"
+                android:layout_marginTop="13dp"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="294dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/tipqccampus" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="300dp"
+                    android:layout_height="104dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="165dp"
+                    android:text="On February 8,1962 ,a group of educators headed by Engineer Demetrio A. Quirino Jr. and Dr. Teresita U. Quirino established the TECHNOLOGICAL INSTITUTE OF THE PHILIPPINES as a private non-sectarian stock school."
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="120dp"
+                    android:layout_alignStart="@+id/textView4"
+                    android:layout_below="@+id/textView4"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="285dp"
+                    android:text="TIP then opened its Quezon City campus in 1983, located at 20th Avenue, Cubao. T.I.P.QC \n through the years acquired adjacent properties including a frontage along Aurora Boulevard. The Quezon City campus has ten  main buildings spread out in the 3.3-hectare site."
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cardView2"
+                android:layout_width="319dp"
+                android:layout_height="425dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="450dp"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="298dp"
+                    android:layout_height="161dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/tipqccampustwo" />
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="245dp"
+                    android:layout_below="@+id/cardView2"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="168dp"
+                    android:text="Graduates of the Technological Institute of the Philippines (T.I.P.) remain to be one of the most preferred by employers based on the 2017 Fresh Graduates Report by JobStreet.com Philippines. \n \nT.I.P., through the past few years, has been on a steady rise in ranking in JobStreet.com’s annual survey of top schools most preferred by employers. Since securing the 10th spot back in 2014, T.I.P. leaped to the 7th spot in 2015, and nudged another rank up to 6th in 2016."
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="319dp"
+                android:layout_height="388dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="890dp"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="295dp"
+                    android:layout_height="159dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/tipqccampusthree" />
+
+                <TextView
+                    android:layout_width="297dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="170dp"
+                    android:text="In a recent Jobstreet.com survey, the Technological Institute of the Philippines (T.I.P.) was once again in the top ten most preferred schools to hire fresh graduates from by employers, placing 7th in the above mentioned survey. T.I.P. also ranked 2nd for the most preferred schools in the Engineering Industry. T.I.P.’s consistent placing in the Jobstreet survey bolsters the school’s commitment to provide quality engineering and technology education."
+                    android:textColor="@android:color/black" />
+
+            </android.support.v7.widget.CardView>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

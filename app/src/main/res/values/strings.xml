@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">TentativeCapstoneUI</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="friends_list">Friends</string>
+    <string name="find_friends">Find Friends</string>
+    <string name="profilePage">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_help">Help</string>
+    <string-array name="course">
+        <item>Select Course</item>
+        <item>BSIT</item>
+        <item>BSCS</item>
+        <item>BSIS</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="spinnertime1">
+        <item>Starting Time</item>
+        <item>7:30am</item>
+        <item>8:00am</item>
+        <item>8:30am</item>
+        <item>9:00am</item>
+        <item>9:30am</item>
+        <item>10:00am</item>
+        <item>10:30am</item>
+        <item>11:00am</item>
+        <item>11:30am</item>
+        <item>12:00nn</item>
+        <item>12:30pm</item>
+        <item>1:00pm</item>
+        <item>1:30pm</item>
+        <item>2:00pm</item>
+        <item>2:30pm</item>
+        <item>3:00pm</item>
+        <item>3:30pm</item>
+        <item>4:00pm</item>
+        <item>4:30pm</item>
+        <item>5:00pm</item>
+    </string-array>
+    <string-array name="spinnertime2">
+        <item>End Time</item>
+        <item>7:30am</item>
+        <item>8:00am</item>
+        <item>8:30am</item>
+        <item>9:00am</item>
+        <item>9:30am</item>
+        <item>10:00am</item>
+        <item>10:30am</item>
+        <item>11:00am</item>
+        <item>11:30am</item>
+        <item>12:00nn</item>
+        <item>12:30pm</item>
+        <item>1:00pm</item>
+        <item>1:30pm</item>
+        <item>2:00pm</item>
+        <item>2:30pm</item>
+        <item>3:00pm</item>
+        <item>3:30pm</item>
+        <item>4:00pm</item>
+        <item>4:30pm</item>
+        <item>5:00pm</item>
+    </string-array>
+    <string-array name="internsNum">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4+</item>
+    </string-array>
+    <string name="google_maps_key">AIzaSyD7z_O9pRgwsdDRqtEJZf5sTLkIafoQM0M</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

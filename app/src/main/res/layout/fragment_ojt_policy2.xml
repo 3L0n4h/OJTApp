@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgbgbg"
+    android:paddingTop="50dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="hci.com.tentativecapstoneui.OjtPolicy">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="General Policies"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:text="
+The requisite(s) of the On-the-Job Training/Practicum is defined in the course description of each program curriculum.\n
+The required number of training hours specified in the course description may be extended by the company
+whenever necessary, subject to mutual agreement between the student, school and the company."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:text="  Only students who are enrolled in the On-the-Job Training/Practicum subject are covered by this policy.
+The subject On-the-Job Training/Practicum shall be taken \n
+
+1. on the regular year level/semester as prescribed in the program curriculum \n
+2. during summer prior to the terminal year provided no other academic subjects is enrolled."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:text="  Students with overload academic subjects will not be allowed to undergo on-the-job training/practicum even if he/she is a candidate for graduation
+The faculty member assigned to handle the On-the-Job Training/Practicum subject acts as the On-the-Job Training/Practicum Coordinator. \n
+He/she shall work closely with the school's Industry Linkage Coordinator and the Company's Training Supervisor. He/she shall monitor the OJT activities in conformity with the course objectives."
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

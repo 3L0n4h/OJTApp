@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@mipmap/home"
+            android:title="Home"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/menu_Settings"
+            android:icon="@mipmap/settings"
+            android:title="Account Settings"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/menu_admin"
+            android:title="Admin Options"
+            android:visible="false">
+            <menu>
+                <item
+                    android:id="@+id/nav_pending"
+                    android:icon="@drawable/icon"
+                    android:title="Pending"
+                    android:visible="true" />
+                <item
+                    android:id="@+id/nav_calendar"
+                    android:icon="@drawable/calendar"
+                    android:title="Schedule"
+                    android:visible="true" />
+                <item
+                    android:id="@+id/nav_Events"
+                    android:icon="@drawable/events"
+                    android:title="Events"
+                    android:visible="true" />
+                <item
+                    android:id="@+id/nav_Csv"
+                    android:title="CSV"
+                    android:icon="@drawable/csv"
+                    android:visible="true" />
+                <item
+                    android:id="@+id/nav_map"
+                    android:title="Map"
+                    android:icon="@drawable/csv"
+                    android:visible="true" />
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/menu_others"
+            android:title="Others"
+            android:visible="false">
+            <menu>
+                <item
+                    android:id="@+id/nav_Help"
+                    android:icon="@mipmap/question"
+                    android:title="Help"
+                    android:visible="true" />
+                <item
+                    android:id="@+id/nav_About"
+                    android:icon="@mipmap/abouttip"
+                    android:title="About TIP"
+                    android:visible="true" />
+                <item
+                    android:id="@+id/nav_Ojt"
+                    android:icon="@mipmap/aboutojtt"
+                    android:title="OJT Program"
+                    android:visible="true" />
+                <item
+                    android:id="@+id/nav_Logout"
+                    android:icon="@mipmap/logout"
+                    android:title="Log Out"
+                    android:visible="true"/>
+            </menu>
+        </item>
+
+
+    </group>
+
+</menu>
